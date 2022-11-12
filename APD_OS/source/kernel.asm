@@ -1,4 +1,4 @@
-;*****************start of the MMP_OS kernel code***************
+;*****************start of the APD_OS kernel code***************
 [org 0x000]
 [bits 16]
 
@@ -775,7 +775,7 @@ _save_string:
 
 	wel6 db ' Bootloader - Ultimate Boot Loader - Matthew Vea', 0x00
 
-	wel7 db ' version 1.0.0 of APD_OS From M.M.A. Prasadini De Silva - SE/2019/047', 0x00
+	wel7 db ' version 1.0.0 of APD_OS From M.M.A. Prasadini De Silva', 0x00
 
 
 
